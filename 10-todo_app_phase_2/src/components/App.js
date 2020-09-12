@@ -1,4 +1,4 @@
-// Change the input/p comba from the previous task
+// Change the input/p combo from the previous task
 // to be a new component called TodoItem
 // Style up the page however you like
 
