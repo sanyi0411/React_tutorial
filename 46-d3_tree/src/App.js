@@ -55,7 +55,12 @@ class App extends React.Component {
     return (
       <div className="App">
         {/* <Tree /> will fill width/height of its container*/}
-          <Tree data={myTreeData} orientation="vertical" nodeSvgShape={svgSquare}/>
+          <Tree 
+            data={myTreeData}
+            orientation="vertical" 
+            nodeSvgShape={svgSquare}
+            translate={{x: 100, y: 100}}
+          />
       </div>
     );
   }
